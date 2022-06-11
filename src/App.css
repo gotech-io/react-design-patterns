@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  padding: 6px;
+}
+
+.size-display {
+  position: absolute;
+  font-size: 12px;
+  top: 10px;
+  left: 10px;
+}
+
+.render-counter {
+  display: inline-block;
+  border: 2px solid red;
+  padding: 12px;
+  margin: 6px;
+}
+
+.child-of-render-counter {
+  display: inline-block;
+  border: 2px solid green;
+  padding: 12px;
+  margin: 6px;
+}
+
+.our-custom-input {
+  background-color: hotpink;
+  border: 6px solid turquoise;
+}
+
+.our-custom-input-2 {
+  padding: 10px;
+  background-color: turquoise;
+  border: 6px solid hotpink;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+}
+
+.counter button {
+  margin: 0 8px;
+}
+
+.counter.horizontal {
+  flex-direction: row;
+}
+
+.counter.vertical {
+  flex-direction: column;
+}
+
+.counter.rtl {
+  direction: rtl;
+}
+
+.counter.small,
+.counter.small button {
+  font-size: 12px;
+}
+
+.counter.medium,
+.counter.medium button {
+  font-size: 22px;
+}
+
+.counter.large,
+.counter.large button {
+  font-size: 32px;
+}
